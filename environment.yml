@@ -1,0 +1,21 @@
+name: braincv2
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy=1.26.4
+  - opencv
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly
+  - scikit-learn
+  - matplotlib
+  - pillow
+  - seaborn
+  - tqdm
+  - pip:
+      - scikit-image
