@@ -8,7 +8,7 @@ Classical Computer Vision + Deep Learning (ResNet-18)
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-orange)
 
 ## Quick Links
-Final Report: add link  
+Final Report: https://github.com/arianazapata/brain-tumor-mri-detection/blob/f5b9b74a4270754196598f9efc1e85b87ac1cd95 Brain_Tumor_MRI_Detection_Report.pdf
 Dataset (Kaggle): https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection  
 Repository: https://github.com/arianazapata/brain-tumor-mri-detection
 
