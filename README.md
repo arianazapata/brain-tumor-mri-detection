@@ -4,13 +4,32 @@ Classical Computer Vision + Deep Learning (ResNet-18)
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red?logo=pytorch)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-orange)
 
 ## Quick Links
-Final Report: https://github.com/arianazapata/brain-tumor-mri-detection/blob/f5b9b74a4270754196598f9efc1e85b87ac1cd95 Brain_Tumor_MRI_Detection_Report.pdf
+Final Report: [Brain Tumor MRI Detection Report (PDF)](https://github.com/arianazapata/brain-tumor-mri-detection/blob/main/Brain_Tumor_MRI_Detection_Report.pdf)  
 Dataset (Kaggle): https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection  
 Repository: https://github.com/arianazapata/brain-tumor-mri-detection
+
+## Table of Contents
+- [Motivation](#motivation)
+- [Project Overview](#project-overview)
+  - [Classical Computer Vision Pipeline](#classical-computer-vision-pipeline)
+  - [CNN Pipeline (ResNet-18 Transfer Learning)](#cnn-pipeline-resnet-18-transfer-learning)
+- [Results](#results)
+- [Folder Structure](#folder-structure)
+- [Requirements and Setup](#requirements-and-setup)
+  - [Environment Creation](#environment-creation)
+  - [Pip-only Setup](#pip-only-setup)
+- [Running the Pipeline](#running-the-pipeline)
+  - [Preprocess Images](#preprocess-images)
+  - [Extract Features for Classical Model](#extract-features-for-classical-model)
+  - [Train Classical Model](#train-classical-model)
+  - [Train CNN Model](#train-cnn-model)
+  - [Evaluate Models](#evaluate-models)
+- [Dataset](#dataset)
+- [Usage Example](#usage-example)
+- [Future Work](#future-work)
+- [License](#license)
 
 ## Motivation
 Early and accurate detection of brain tumors significantly improves patient outcomes. However, manually reviewing MRI scans is time-consuming and subjective. This project investigates the performance of two approaches:
